@@ -1,0 +1,16 @@
+PODS:
+  - BytedEffects (3.2.8)
+
+DEPENDENCIES:
+  - BytedEffects (from `/Users/rogerluo/Downloads/byted_effect_ios/iossample/`)
+
+EXTERNAL SOURCES:
+  BytedEffects:
+    :path: "/Users/rogerluo/Downloads/byted_effect_ios/iossample/"
+
+SPEC CHECKSUMS:
+  BytedEffects: 1c2b57eac1171423943b8de5005038db599437a7
+
+PODFILE CHECKSUM: 0a2172809fb9bdb1a59af1fdcadbc5571e3823aa
+
+COCOAPODS: 1.9.1

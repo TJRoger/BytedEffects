@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F59C6F27B15AFFFA7632877 /* Pods_BytedEffectsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7509906B027928360D4AD596 /* Pods_BytedEffectsDemo.framework */; };
+		B8384D1E2436DA9300154972 /* TSFrameProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8384D1D2436DA9300154972 /* TSFrameProcessor.swift */; };
+		B8384D2624374D9100154972 /* TSDetect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8384D2524374D9100154972 /* TSDetect.swift */; };
 		B86F54802434C25200E45DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F547F2434C25200E45DC4 /* AppDelegate.swift */; };
 		B86F54822434C25200E45DC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F54812434C25200E45DC4 /* SceneDelegate.swift */; };
 		B86F54842434C25200E45DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F54832434C25200E45DC4 /* ViewController.swift */; };
 		B86F54872434C25200E45DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86F54852434C25200E45DC4 /* Main.storyboard */; };
 		B86F54892434C25900E45DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86F54882434C25900E45DC4 /* Assets.xcassets */; };
 		B86F548C2434C25A00E45DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86F548A2434C25A00E45DC4 /* LaunchScreen.storyboard */; };
+		B86F54FB2434E11900E45DC4 /* libeffect-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B86F54FA2434E11900E45DC4 /* libeffect-sdk.a */; };
+		B86F55002434F49A00E45DC4 /* ModelResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B86F54FD2434F49A00E45DC4 /* ModelResource.bundle */; };
+		B86F55012434F49A00E45DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86F54FE2434F49A00E45DC4 /* Assets.xcassets */; };
+		B86F55022434F49A00E45DC4 /* LicenseBag.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B86F54FF2434F49A00E45DC4 /* LicenseBag.bundle */; };
+		B86F550A2435EC5400E45DC4 /* TSVideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F55092435EC5400E45DC4 /* TSVideoCapture.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B86F54A12434C4B600E45DC4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1D31C6DC1A4BDFF5CC0FF65E /* Pods-BytedEffectsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BytedEffectsDemo.release.xcconfig"; path = "Target Support Files/Pods-BytedEffectsDemo/Pods-BytedEffectsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		567FD2C788D1BEDE9F3792FD /* Pods-BytedEffectsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BytedEffectsDemo.debug.xcconfig"; path = "Target Support Files/Pods-BytedEffectsDemo/Pods-BytedEffectsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7509906B027928360D4AD596 /* Pods_BytedEffectsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BytedEffectsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8384D1D2436DA9300154972 /* TSFrameProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSFrameProcessor.swift; sourceTree = "<group>"; };
+		B8384D232436F72100154972 /* BEMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMacro.h; sourceTree = "<group>"; };
+		B8384D2524374D9100154972 /* TSDetect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSDetect.swift; sourceTree = "<group>"; };
 		B86F547C2434C25200E45DC4 /* BytedEffectsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BytedEffectsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86F547F2434C25200E45DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B86F54812434C25200E45DC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,14 @@
 		B86F54882434C25900E45DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86F548B2434C25A00E45DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B86F548D2434C25A00E45DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86F54C92434CE0C00E45DC4 /* BytedEffectsDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BytedEffectsDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B86F54CC2434D27100E45DC4 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		B86F54FA2434E11900E45DC4 /* libeffect-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libeffect-sdk.a"; sourceTree = "<group>"; };
+		B86F54FD2434F49A00E45DC4 /* ModelResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ModelResource.bundle; sourceTree = "<group>"; };
+		B86F54FE2434F49A00E45DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86F54FF2434F49A00E45DC4 /* LicenseBag.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LicenseBag.bundle; sourceTree = "<group>"; };
+		B86F55052435E49800E45DC4 /* BytedEffects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BytedEffects.h; sourceTree = "<group>"; };
+		B86F55092435EC5400E45DC4 /* TSVideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSVideoCapture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F59C6F27B15AFFFA7632877 /* Pods_BytedEffectsDemo.framework in Frameworks */,
+				B86F54FB2434E11900E45DC4 /* libeffect-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41AE08E4F36AD0517637D63D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7509906B027928360D4AD596 /* Pods_BytedEffectsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8384D2424374D1C00154972 /* TSBytedEffects */ = {
+			isa = PBXGroup;
+			children = (
+				B86F55092435EC5400E45DC4 /* TSVideoCapture.swift */,
+				B8384D1D2436DA9300154972 /* TSFrameProcessor.swift */,
+				B8384D2524374D9100154972 /* TSDetect.swift */,
+			);
+			path = TSBytedEffects;
+			sourceTree = "<group>";
+		};
 		B86F54732434C25200E45DC4 = {
 			isa = PBXGroup;
 			children = (
+				B8384D2424374D1C00154972 /* TSBytedEffects */,
+				B86F54E82434E11900E45DC4 /* BytedEffects */,
 				B86F547E2434C25200E45DC4 /* BytedEffectsDemo */,
 				B86F547D2434C25200E45DC4 /* Products */,
+				D8BCFD1550B7DBD007E3D258 /* Pods */,
+				41AE08E4F36AD0517637D63D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +119,51 @@
 				B86F54812434C25200E45DC4 /* SceneDelegate.swift */,
 				B86F54832434C25200E45DC4 /* ViewController.swift */,
 				B86F54852434C25200E45DC4 /* Main.storyboard */,
+				B86F54FC2434F49A00E45DC4 /* Resource */,
 				B86F54882434C25900E45DC4 /* Assets.xcassets */,
 				B86F548A2434C25A00E45DC4 /* LaunchScreen.storyboard */,
 				B86F548D2434C25A00E45DC4 /* Info.plist */,
+				B86F54C92434CE0C00E45DC4 /* BytedEffectsDemo-Bridging-Header.h */,
 			);
 			path = BytedEffectsDemo;
+			sourceTree = "<group>";
+		};
+		B86F54E82434E11900E45DC4 /* BytedEffects */ = {
+			isa = PBXGroup;
+			children = (
+				B86F55052435E49800E45DC4 /* BytedEffects.h */,
+				B8384D232436F72100154972 /* BEMacro.h */,
+				B86F54CC2434D27100E45DC4 /* include */,
+				B86F54F92434E11900E45DC4 /* lib */,
+			);
+			path = BytedEffects;
+			sourceTree = "<group>";
+		};
+		B86F54F92434E11900E45DC4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B86F54FA2434E11900E45DC4 /* libeffect-sdk.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		B86F54FC2434F49A00E45DC4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B86F54FD2434F49A00E45DC4 /* ModelResource.bundle */,
+				B86F54FE2434F49A00E45DC4 /* Assets.xcassets */,
+				B86F54FF2434F49A00E45DC4 /* LicenseBag.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D8BCFD1550B7DBD007E3D258 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				567FD2C788D1BEDE9F3792FD /* Pods-BytedEffectsDemo.debug.xcconfig */,
+				1D31C6DC1A4BDFF5CC0FF65E /* Pods-BytedEffectsDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B86F54902434C25A00E45DC4 /* Build configuration list for PBXNativeTarget "BytedEffectsDemo" */;
 			buildPhases = (
+				513383BACF09CACE0E48DB64 /* [CP] Check Pods Manifest.lock */,
 				B86F54782434C25200E45DC4 /* Sources */,
 				B86F54792434C25200E45DC4 /* Frameworks */,
 				B86F547A2434C25200E45DC4 /* Resources */,
+				B86F54A12434C4B600E45DC4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +200,7 @@
 				TargetAttributes = {
 					B86F547B2434C25200E45DC4 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -126,19 +228,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86F548C2434C25A00E45DC4 /* LaunchScreen.storyboard in Resources */,
+				B86F55002434F49A00E45DC4 /* ModelResource.bundle in Resources */,
+				B86F55022434F49A00E45DC4 /* LicenseBag.bundle in Resources */,
 				B86F54892434C25900E45DC4 /* Assets.xcassets in Resources */,
 				B86F54872434C25200E45DC4 /* Main.storyboard in Resources */,
+				B86F55012434F49A00E45DC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		513383BACF09CACE0E48DB64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BytedEffectsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B86F54782434C25200E45DC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86F550A2435EC5400E45DC4 /* TSVideoCapture.swift in Sources */,
+				B8384D2624374D9100154972 /* TSDetect.swift in Sources */,
 				B86F54842434C25200E45DC4 /* ViewController.swift in Sources */,
+				B8384D1E2436DA9300154972 /* TSFrameProcessor.swift in Sources */,
 				B86F54802434C25200E45DC4 /* AppDelegate.swift in Sources */,
 				B86F54822434C25200E45DC4 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,17 +415,36 @@
 		};
 		B86F54912434C25A00E45DC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567FD2C788D1BEDE9F3792FD /* Pods-BytedEffectsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7KXVPC4Y3C;
+				DEVELOPMENT_TEAM = AC7Y47HS58;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/BytedEffects/include",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = BytedEffectsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tk.tjroger.BytedEffectsDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BytedEffects/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikasa.Moe-dev2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BytedEffectsDemo/BytedEffectsDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +452,35 @@
 		};
 		B86F54922434C25A00E45DC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D31C6DC1A4BDFF5CC0FF65E /* Pods-BytedEffectsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7KXVPC4Y3C;
+				DEVELOPMENT_TEAM = AC7Y47HS58;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"GLES_SILENCE_DEPRECATION=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/BytedEffects/include",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = BytedEffectsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tk.tjroger.BytedEffectsDemo;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BytedEffects/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikasa.Moe-dev2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BytedEffectsDemo/BytedEffectsDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
